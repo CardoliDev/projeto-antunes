@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    background-image: url('wallpaper2.jpg');
+    background-size: cover;
+    /* Faz a imagem cobrir todo o fundo */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita a repetição da imagem */
+    background-attachment: fixed;
+    /* Fixa o fundo enquanto rola a página */
+    height: 100vh;
+    /* Garante que o corpo tenha pelo menos a altura da tela */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #cea3c53d;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 150px;
+    gap: 100px;
+    box-sizing: content-box;
+    opacity: 100%;
+    border-style: outset;
+
+}
+
+.navbar {
+    border-radius: 30px;
+}
+
+.nav-link:hover {
+    color: #9d0af1;
+}
+
+.nav-item:hover {
+    background-color: #c86cf3;
+    color: #683081;
+}
+.navbar-brand {
+    color: #683081;
+}
+
+.dropdown-item:hover {
+    background-color: #c86cf3;
+}
+
+.nav-link:hover {
+    background-color: #c86cf3;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+
+h1,
+h2 {
+    color: #000000;
+    font-size: 60px;
+    font-style: italic;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 10px;
+    border-style: dotted;
+    border-color: #aa0cf3;
+    padding-bottom: 10px;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+
+    background-color: #683081;
+    color: #fff;
+    border: none;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c86cf3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+}
+
+
+
+.error {
+    color: red;
+}
+
+h1,
+h2,
+p,
+li,
+button {
+    font-family: cursive;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #683081;
+    border-radius: 35px;
+}
+
+.btn:hover {
+    background-color: #c86cf3;
+}
